@@ -1,0 +1,26 @@
+/* TravelGallery.css */
+.travel-gallery-container {
+  max-width: 100%;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.album-header {
+  text-align: center;
+  margin-bottom: 20px; /* Add space below the header */
+}
+
+.carousel-container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.carousel .slide img {
+  max-width: 100%;
+  max-height: 80vh; /* Limit the height to 80% of the viewport height */
+  width: auto;
+  height: auto;
+}
+
+.carousel .thumbs-wrapper {
+  display: none; /* Hide thumbnail navigation on mobile */
+}

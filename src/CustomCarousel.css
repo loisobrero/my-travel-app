@@ -1,0 +1,31 @@
+/* CustomCarousel.css */
+
+.custom-carousel {
+    width: 80%; /* Adjust the width of the carousel container */
+    margin: auto; /* Center the carousel horizontally */
+  }
+  
+  .custom-carousel .carousel-item {
+    text-align: center; /* Center the content within each carousel item */
+  }
+  
+  .custom-carousel .carousel-item img {
+    max-width: 100%; /* Set the maximum width of the images within the carousel */
+    height: auto; /* Maintain the aspect ratio of the images */
+  }
+  
+  .custom-carousel .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color for captions */
+    color: white; /* Text color for captions */
+    position: absolute; /* Position the caption absolutely over the image */
+    bottom: 0; /* Align the caption to the bottom of the carousel item */
+    left: 0; /* Align the caption to the left edge of the carousel item */
+    width: 100%; /* Make the caption span the full width of the carousel item */
+    padding: 10px; /* Add padding to the caption */
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+  .custom-carousel .carousel-caption h3 {
+    margin: 0; /* Remove default margin for heading */
+  }
+  
