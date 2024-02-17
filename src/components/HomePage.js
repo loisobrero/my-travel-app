@@ -12,7 +12,7 @@ const HomePage = () => {
         {albums.map((album, index) => (
           <Link key={index} to={`/album/${encodeURIComponent(album.title)}-${album.year}`}>
             <div className="album-preview">
-              <img src={album.previewImage} alt={`Preview of ${album.title}`} />
+              <img src={`${process.env.PUBLIC_URL}/${album.previewImage}`} alt={`Preview of ${album.title}`} />
               <p>{album.title}</p>
             </div>
           </Link>

@@ -37,7 +37,7 @@ const TravelGallery = () => {
       <Carousel showThumbs={false} showStatus={false} infiniteLoop autoPlay interval={3000}>
         {album.images.map((image, index) => (
           <div key={index} className="carousel-image-container">
-            <img src={image} alt={`Photo ${index + 1}`} className="carousel-image" />
+            <img src={`${process.env.PUBLIC_URL}/${image}`} alt={`Photo ${index + 1}`} className="carousel-image" />
           </div>
         ))}
       </Carousel>

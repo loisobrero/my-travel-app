@@ -7,13 +7,13 @@ import albums from './data/albums';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/my-travel-app">
       <Routes>
         <Route path="/" element={<HomePage />} />
         {albums.map((album, index) => (
           <Route
             key={index}
-            path={`/album/:albumParams`} // Adjust the route path to use albumParams
+            path={`/album/:albumParams`}
             element={<TravelGallery />}
           />
         ))}
