@@ -14,7 +14,7 @@ Lo's Travel Diary is a web application built with React.js for storing and shari
 
 ## Demo
 
-[Add a link to a live demo of your application if available]
+[Live Demo](https://loisobrero.github.io/my-travel-app)
 
 ## Features
 
@@ -29,7 +29,6 @@ Lo's Travel Diary is a web application built with React.js for storing and shari
 - **React Router**: Library for routing in React applications.
 - **CSS**: Used for styling components.
 - **HTML**: Markup language for structuring web pages.
-- [Add any additional technologies or libraries used in your project]
 
 ## Installation
 
