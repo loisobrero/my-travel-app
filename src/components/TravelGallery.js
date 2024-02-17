@@ -1,6 +1,5 @@
-// TravelGallery.js
 import React, { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import albums from '../data/albums';
@@ -33,7 +32,7 @@ const TravelGallery = () => {
 
   return (
     <div className="travel-gallery-container">
-      <h1>{album.title}</h1>
+      <h1 className="album-header">{album.title}</h1>
       <Carousel showThumbs={false} showStatus={false} infiniteLoop autoPlay interval={3000}>
         {album.images.map((image, index) => (
           <div key={index} className="carousel-image-container">
@@ -41,6 +40,7 @@ const TravelGallery = () => {
           </div>
         ))}
       </Carousel>
+      <Link to="/" className="return-home-button">Return to Homepage</Link>
     </div>
   );
 };

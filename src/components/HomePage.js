@@ -7,7 +7,7 @@ import './HomePage.css'; // Import the CSS file for homepage styling
 const HomePage = () => {
   return (
     <div className="homepage-container">
-      <h1>Lo's Travel Diary</h1>
+      <h1 className="header">Lo's Travel Diary</h1> 
       <div className="album-preview-container">
         {albums.map((album, index) => (
           <Link key={index} to={`/album/${encodeURIComponent(album.title)}-${album.year}`}>

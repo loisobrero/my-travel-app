@@ -1,7 +1,14 @@
 /* HomePage.css */
-.homepage-container {
+
+.header {
     text-align: center;
-    font-family: 'Monospace', monospace; /* Set font family to monospace */
+    font-family: 'Courier New', monospace; /* Set font family to monospace */
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 30px;
+    background-color: #f1d7d7;
+    margin: auto;
+    padding: 50px;
   }
   
   .album-preview-container {
@@ -18,12 +25,13 @@
   
   .album-preview img {
     width: 200px;
-    border-radius: 10px;
+    border-radius: 50px;
   }
   
   .album-preview p {
+    font-family: 'Courier New', monospace;
     margin-top: 10px;
     font-size: 16px;
-    color: #333; /* Set text color to dark gray */
+    color: #070707; /* Set text color to dark gray */
   }
   
