@@ -13,7 +13,7 @@ const HomePage = () => {
           <Link key={index} to={`/album/${encodeURIComponent(album.title)}-${album.year}`}>
             <div className="album-preview">
               <img src={`${process.env.PUBLIC_URL}/${album.previewImage}`} alt={`Preview of ${album.title}`} />
-              <p>{album.title}</p>
+              <p>{album.title} - {album.year}</p> {/* Include the year along with the title */}
             </div>
           </Link>
         ))}
