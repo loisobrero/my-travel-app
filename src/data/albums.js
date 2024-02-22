@@ -50,6 +50,24 @@ const albums = [
         // Add images for New York
       ]
     },
+    {
+      title: "Cancun",
+      year: 2021,
+      previewImage: "/images/ca6.jpg",
+      images: [
+        "/images/ca1.jpg",
+        "/images/ca2.jpg",
+        "/images/ca3.jpg",
+        "/images/ca4.jpg",
+        "/images/ca5.jpg",
+        "/images/ca6.jpg",
+        "/images/ca7.JPG",
+        "/images/ca8.JPG",
+        "/images/ca9.JPG",
+        "/images/ca10.JPG",
+        "/images/ca11.JPG",
+      ]
+    }
     // Add more albums
   ];
   

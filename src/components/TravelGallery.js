@@ -40,7 +40,7 @@ const TravelGallery = () => {
           </div>
         ))}
       </Carousel>
-      <Link to="/" className="return-home-button">Return to Homepage</Link>
+      <Link to="/" className="return-home-button">Return to Albums</Link>
     </div>
   );
 };
