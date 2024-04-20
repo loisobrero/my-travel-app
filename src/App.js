@@ -7,7 +7,7 @@ import albums from './data/albums';
 
 const App = () => {
   return (
-    <Router basename="/my-travel-app">
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<HomePage />} />
         {albums.map((album, index) => (
